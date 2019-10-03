@@ -1,0 +1,27 @@
+<!--pages/main/router.wxml-->
+
+<view>
+  <!-- <text>女朋友的位置：</text>
+  <map class="map_sty" longitude="118.08" latitude="24.46"></map> -->
+
+  <view class="ava">
+      <open-data type="userAvatarUrl" ></open-data>
+  </view>
+  <view class="userName">
+      <open-data type="userNickName" ></open-data>
+  </view>
+
+
+
+
+
+
+
+  <button type="primary" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="setLoading"  style="background:rgb(68, 189, 211);margin:20px 10px 20px 10px"> 进入游戏 </button>
+  <button type="primary" size="{{defaultSize}}"  plain="{{plain}}" disabled="{{disabled}}" bindtap="openSet"  style="background:rgb(48, 101, 172)"> 配置 </button>
+
+  <!-- <button type="primary" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="openSet"  style="background:rgb(218, 228, 238);color:#333"> 位置 </button>
+
+
+   -->
+</view>

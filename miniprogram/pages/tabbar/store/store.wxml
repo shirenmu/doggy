@@ -1,0 +1,13 @@
+<!--pages/tabbar/store/store.wxml-->
+<view>
+  <MyHeader></MyHeader>
+
+  <view class="nav_warp">
+    <scroll-view scroll-x class="nav">
+      <view bindtap="activeNav" data-index="{{index}}" class="nav_item {{index===currentIndex?'active':''}}"  wx:for="{{navList}}" wx:key="{{index}}">
+        {{item.text}}
+      </view>
+    </scroll-view>
+  </view>
+</view>
+

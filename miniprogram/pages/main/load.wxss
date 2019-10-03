@@ -1,0 +1,76 @@
+/* pages/main/mian.wxss */
+
+.page-section {
+  margin-bottom: 20rpx;
+}
+
+.flex-wrp {
+  display: flex;
+}
+
+.bc_red {
+  background: linear-gradient(rgb(97, 167, 224), rgb(47, 111, 185));
+  height: 100vh;
+  text-align: center;
+  line-height: 600px;
+  color: #ccc;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.map_sty {
+  height: 300px;
+  width: 100vw;
+}
+
+.loadingMove {
+  animation: box1 .6s ease .1s infinite alternate;
+}
+
+
+
+.loadMore {
+  position: absolute;
+  top: 2px;
+  left: 234px;
+  animation: moreC .6s ease .1s infinite alternate;
+}
+
+.loadMore1 {
+  position: absolute;
+  top: 2px;
+  left: 242px;
+  animation: moreC .6s ease .2s infinite alternate;
+}
+
+.loadMore2 {
+  position: absolute;
+  top: 2px;
+  left: 250px;
+  animation: moreC .6s ease .4s infinite alternate;
+}
+
+@keyframes box1 {
+  form {
+    transfrom: translateY(0deg);
+  }
+
+  to {
+    transform: translateY(2px);
+  }
+}
+
+
+@keyframes moreC {
+  form {
+    transfrom: translateY(0deg);
+  }
+
+  to {
+    transform: translateY(-6px);
+  }
+  
+}
+
+
+

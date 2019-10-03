@@ -1,0 +1,21 @@
+/* pages/main/main.wxss */
+
+.header{
+  border-bottom: 1px solid #ccc;
+  margin: 60rpx;
+  text-align: center;
+}
+
+.content{
+  margin: 60rpx;
+}
+.content text{
+  display: block;
+  color:#9d9d9d;
+  margin-top: 50rpx
+}
+.btn{
+  border-radius: 80rpx;
+  margin:70rpx 50rpx;
+
+}

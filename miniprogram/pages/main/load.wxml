@@ -1,0 +1,28 @@
+<!--pages/main/mian.wxml-->
+<view>
+
+  <view class="section" >
+    <view class="flex-wrp" style="flex-direction:column;"  bindtap="loadTo">
+
+      <view class="flex-item bc_red">
+      <view class="loadingMove">loading
+      
+      </view>
+
+      <view class="loadMore textC">.</view>
+      <view class="loadMore1 textC">.</view>
+      <view class="loadMore2 textC">.</view>
+
+
+
+      
+      <!-- <progress percent="20" show-info /> -->
+      
+      </view>
+
+    </view>
+  </view>
+
+    
+
+</view>

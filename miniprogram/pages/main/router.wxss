@@ -1,0 +1,31 @@
+/* pages/main/router.wxss */
+
+.map_sty {
+  height: 300px;
+  width: 100vw;
+}
+
+.button-hover {
+  background-color: red;
+}
+/** 添加自定义button点击态样式类**/
+.other-button-hover {
+  background-color: rgb(31, 81, 131);
+}
+button {margin: 10px;}
+
+.ava{
+  width: 80px;
+  height: 80px;
+  margin: 80px auto 20px ;
+  /* border:2px solid rgb(16, 57, 99); */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.userName{
+  width: 100vw;
+  height:40px;
+  text-align: center;
+
+}

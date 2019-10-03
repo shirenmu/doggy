@@ -1,0 +1,19 @@
+<!--pages/main/main.wxml-->
+
+
+<view>
+
+
+  <view class="header">
+    <cover-image src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569601352444&di=a0e46395276d3d713e3455cce028d43b&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F22f57c17ea199b3daccd9762e3e50d55cbd91d839b7e-p7bvjJ_fw658" style="width:200rpx;border-radius:20px;margin:100rpx auto"></cover-image>
+  </view>
+
+  <view class="content">
+    <view>申请获得以下权限</view>
+    <text>获得你的公开信息(昵称 , 头像等)</text>
+  </view>
+
+  <button wx:if="{{canIUse}}" class="btn" type="primary" open-type="getUserInfo" lang="zh-CN" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  <view wx:else>请升级微信版本</view>
+
+</view>
